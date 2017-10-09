@@ -5,7 +5,11 @@ package com.omisoft.aatanasov.javacourse.introinjava.task2;
  */
 public class WorkWithArrays {
 
-    //method that find and output the smallest number from the array
+    /**
+     * Method that find the smallest number in array
+     * @param array
+     * @return the minValue of array
+     */
     public int getMinValue(int[] array) {
         int minValue = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -18,7 +22,7 @@ public class WorkWithArrays {
     }
 
     /**
-     *
+     *Method that sum all numbers in array
      * @param array
      * @return the sum of the array
      */
@@ -30,7 +34,10 @@ public class WorkWithArrays {
         return sum;
     }
 
-    //method that process the array and order it from smallest to biggest number if it's mixed
+    /**
+     * Method that order the numbers in the array from smallest to biggest
+     * @param array
+     */
     public void printArray(int array[]) {
         int n = array.length;
 
