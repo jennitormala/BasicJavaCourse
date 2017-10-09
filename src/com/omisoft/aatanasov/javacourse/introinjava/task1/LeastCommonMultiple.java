@@ -4,8 +4,8 @@ package com.omisoft.aatanasov.javacourse.introinjava.task1;
  * Method for implementation of LCM for two numbers
 
  */
-public class LeastCommonMultiple {
 
+public class LeastCommonMultiple {
     /**
      * This method finds the least common multiple
      *
