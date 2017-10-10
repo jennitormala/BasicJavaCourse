@@ -15,7 +15,7 @@ public class MergeSort {
     }
 
     /**
-     * This method implements the algorithm by using the following parameters:
+     * This method implements the mergerSort algorithm by using the following parameters:
      * @param array
      * @param left
      * @param right
