@@ -1,7 +1,7 @@
 package com.omisoft.aatanasov.javacourse.introinjava.task1;
 
 /**
- * This is class is designed to work with GCD of two numbers
+ * This class is designed to work with GCD of two numbers
  */
 
 public class GreatestCommonDivisor {
