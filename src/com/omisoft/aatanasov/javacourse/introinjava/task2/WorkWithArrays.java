@@ -12,7 +12,7 @@ public class WorkWithArrays {
      */
     public int getMinValue(int[] array) {
         int minValue = array[0];
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] < minValue) {
                 minValue = array[i];
             }
@@ -39,9 +39,8 @@ public class WorkWithArrays {
      * @param array
      */
     public void printArray(int array[]) {
-        int n = array.length;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
     }

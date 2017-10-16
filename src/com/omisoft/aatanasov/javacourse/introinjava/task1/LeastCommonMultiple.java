@@ -1,7 +1,7 @@
 package com.omisoft.aatanasov.javacourse.introinjava.task1;
 
 /**
- * Method for implementation of LCM for two numbers
+ * This is class is designed to work with LCM of two numbers
 
  */
 
@@ -11,7 +11,7 @@ public class LeastCommonMultiple {
      *
      * @param num1ForLCM
      * @param num2ForLCM
-     * @return This method finds the least common multiple
+     * @return lcmInput of the LCM
      */
     public int lcm(int num1ForLCM, int num2ForLCM) {
         int lcmInput;

@@ -1,7 +1,7 @@
 package com.omisoft.aatanasov.javacourse.introinjava.task1;
 
 /**
- * Method for implementation of GCD for two numbers
+ * This is class is designed to work with GCD of two numbers
  */
 
 public class GreatestCommonDivisor {
@@ -10,7 +10,7 @@ public class GreatestCommonDivisor {
      *
      * @param numForGCD1
      * @param numForGCD2
-     * @return
+     * @return the finalResult of the GCD
      */
 
     public int gcd(int numForGCD1, int numForGCD2) {
