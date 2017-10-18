@@ -7,4 +7,3 @@ public class Test {
         System.out.println("[1, 2, 4, 1, 1]: " + weight.findWeight(new int[]{1, 2, 4, 1, 1}));
     }
 }
-
