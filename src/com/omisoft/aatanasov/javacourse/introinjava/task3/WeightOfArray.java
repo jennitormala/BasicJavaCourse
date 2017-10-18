@@ -46,7 +46,7 @@ public class WeightOfArray {
             /*
             Check which elements from one of the sides is bigger and which is smaller
              */
-            if (currentLeftValue > currentRightValue) {
+            if (currentLeftValue >= currentRightValue) {
                 currentRightValue = currentRightValue + array[rightElement - 1];
                 rightElement--;
 
@@ -58,6 +58,7 @@ public class WeightOfArray {
             }
         }
         return answer;
+
 
     }
 }
